@@ -1,3 +1,0 @@
-/home/straw/Documents/JojoGrad/build/CMakeFiles/run.dir
-/home/straw/Documents/JojoGrad/build/CMakeFiles/edit_cache.dir
-/home/straw/Documents/JojoGrad/build/CMakeFiles/rebuild_cache.dir
