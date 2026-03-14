@@ -9,11 +9,11 @@ class invalid_operation : public std::exception {
 // Thrown when an operation token has no defined gradient rule.
 public:
   const char* what() const noexcept override;
-  };
+};
 
-  // Encodes which binary arithmetic operation produced a variable node.
-  // Tokens: 0=+  1=*  2=-  3=/  -1=none (leaf node)
-  struct operation {
+// Encodes which binary arithmetic operation produced a variable node.
+// Tokens: 0=+  1=*  2=-  3=/  -1=none (leaf node)
+struct operation {
   int token;
 
   operation();
